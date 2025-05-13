@@ -1,4 +1,6 @@
-# Keyrune v3.16.1
+# Keyrune v3.16.2
+
+> This is a modified version by MTGZH project. The original repository is https://github.com/andrewgioia/keyrune
 
 ## The Magic: the Gathering set symbol font!
 
