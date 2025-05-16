@@ -1,7 +1,7 @@
 {
   "name": "@mtgzh/keyrune",
   "description": "Keyrune - Modified by MTGZH project",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "author": {
     "name": "Andrew Gioia",
     "email": "andrew@gioia.email",
@@ -34,7 +34,7 @@
     "less": "lessc less/keyrune.less css/keyrune.css",
     "lessmin": "lessc --clean-css less/keyrune.less css/keyrune.min.css",
     "sass": "sass sass/keyrune.scss css/keyrune.css --style=expanded",
-    "sassmin": "sass sass/keyrune.scss css/keyrune.css --style=compressed",
+    "sassmin": "sass sass/keyrune.scss css/keyrune.min.css --style=compressed",
     "watch": "sass --no-source-map --watch sass/keyrune.scss css/keyrune.css --style=expanded",
     "build": "rsync -avzh ./fonts/* ./docs/fonts/ && rsync -avzh css/keyrune.min.css docs/assets/keyrune.min.css",
     "rename": "for f in `find fonts/*`; do target=\"`echo $f | tr '[A-Z]' '[a-z]'`\"; if [ \"$f\" != \"$target\" ]; then mv -v \"$f\" \"$target\"; fi; done",

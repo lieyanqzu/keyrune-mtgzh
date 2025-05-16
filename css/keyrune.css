@@ -2,8 +2,8 @@
  * Global */
 @font-face {
   font-family: 'Keyrune';
-  src: url('../fonts/keyrune.eot?v=3.16.2');
-  src: url('../fonts/keyrune.eot?#iefix&v=3.16.2') format('embedded-opentype'), url('../fonts/keyrune.woff2?v=3.16.2') format('woff2'), url('../fonts/keyrune.woff?v=3.16.2') format('woff'), url('../fonts/keyrune.ttf?v=3.16.2') format('truetype'), url('../fonts/keyrune.svg?v=3.16.2#keyrune') format('svg');
+  src: url('../fonts/keyrune.eot?v=3.16.3');
+  src: url('../fonts/keyrune.eot?#iefix&v=3.16.3') format('embedded-opentype'), url('../fonts/keyrune.woff2?v=3.16.3') format('woff2'), url('../fonts/keyrune.woff?v=3.16.3') format('woff'), url('../fonts/keyrune.ttf?v=3.16.3') format('truetype'), url('../fonts/keyrune.svg?v=3.16.3#keyrune') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1353,14 +1353,19 @@
 .ss-klr:before {
   content: "\e97c";
 }
-.ss-y22:before {
+.ss-y22:before,
+.ss-ymid:before,
+.ss-yneo:before,
+.ss-ysnc:before {
   content: "\e989";
 }
 .ss-hbg:before {
   content: "\e9a6";
 }
+.ss-y23:before,
 .ss-ydmu:before,
-.ss-y23:before {
+.ss-ybro:before,
+.ss-yone:before {
   content: "\e9a7";
 }
 .ss-sir:before {
@@ -1372,11 +1377,18 @@
 .ss-ea1:before {
   content: "\e9b4";
 }
-.ss-y24:before {
+.ss-y24:before,
+.ss-ywoe:before,
+.ss-ylci:before,
+.ss-ymkm:before,
+.ss-yotj:before {
   content: "\e9bd";
 }
 .ss-y25:before,
-.ss-yblb:before {
+.ss-yblb:before,
+.ss-ydsk:before,
+.ss-ydft:before,
+.ss-ytdm:before {
   content: "\e9da";
 }
 /**
@@ -1703,8 +1715,21 @@
   content: "\e9f1";
   color: #000;
 }
-.ss-border.ss-tdm:after {
+.ss-border.ss-tdm {
+  display: list-item;
+  list-style-position: inside;
+}
+.ss-border.ss-tdm.ss-fw {
+  text-align: revert !important;
+}
+.ss-border.ss-tdm::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ss-border.ss-tdm::marker {
   content: "\e9f3";
+  color: #000;
 }
 .ss-border.ss-hop:after {
   content: "\e656";
@@ -1724,3 +1749,4 @@
 .ss-border.ss-van:after {
   content: "\e655";
 }
+/*# sourceMappingURL=keyrune.css.map */

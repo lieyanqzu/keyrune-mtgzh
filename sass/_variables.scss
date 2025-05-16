@@ -1,7 +1,7 @@
 /**
  * Globals */
 
-$keyrune_version: '3.16.2' !default;
+$keyrune_version: '3.16.3' !default;
 $keyrune_font_path:  '../fonts' !default;
 
 // font specific
@@ -501,15 +501,27 @@ $keyrune_sets: (
     ("Amonkhet Remastered", "akr", "\e970"),
     ("Kaladesh Remastered", "klr", "\e97c"),
     ("Alchemy 2022", "y22", "\e989"),
+    ("Alchemy: Innistrad", "ymid", "\e989"),
+    ("Alchemy: Kamigawa", "yneo", "\e989"),
+    ("Alchemy: New Capenna", "ysnc", "\e989"),
     ("Alchemy Horizons: Baldur's Gate", "hbg", "\e9a6"),
     ("Alchemy 2023", "y23", "\e9a7"),
     ("Alchemy: Dominaria", "ydmu", "\e9a7"),
+    ("Alchemy: The Brothers' War", "ybro", "\e9a7"),
+    ("Alchemy: Phyrexia", "yone", "\e9a7"),
     ("Shadows Over Innistrad", "sir", "\e9b1"),
     ("Shadows of the Past", "sis", "\e9b2"),
     ("Explorer Anthology 1", "ea1", "\e9b4"),
     ("Alchemy 2024", "y24", "\e9bd"),
+    ("Alchemy: Wilds of Eldraine", "ywoe", "\e9bd"),
+    ("Alchemy: Ixalan", "ylci", "\e9bd"),
+    ("Alchemy: Murders at Karlov Manor", "ymkm", "\e9bd"),
+    ("Alchemy: Outlaws of Thunder Junction", "yotj", "\e9bd"),
     ("Alchemy 2025", "y25", "\e9da"),
-    ("Alchemy Bloomburrow", "yblb", "\e9da"),
+    ("Alchemy: Bloomburrow", "yblb", "\e9da"),
+    ("Alchemy: Duskmourn", "ydsk", "\e9da"),
+    ("Alchemy: Aetherdrift", "ydft", "\e9da"),
+    ("Alchemy: Tarkir", "ytdm", "\e9da"),
     //
     // Unsets
     ("Unglued", "ugl", "\e691"),
